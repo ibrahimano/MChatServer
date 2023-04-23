@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mchatserver.ServerController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="190.0" style="-fx-background-color: #CBE4DE;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+         <children>
+            <Label layoutX="40.0" layoutY="100.0" text="arrêter le serveur">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_stop" layoutX="34.0" layoutY="157.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="131.0" style="-fx-background-color: #0E8388;" text="Arrêter" textFill="WHITE">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="408.0">
+         <children>
+            <Label layoutX="108.0" layoutY="189.0" text="Le serveur est ouvert!">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</HBox>

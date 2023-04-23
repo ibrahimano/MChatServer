@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="254.0" prefWidth="398.0" style="-fx-background-color: #CBE4DE;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mchatserver.StartController">
+   <children>
+      <Label layoutX="131.0" layoutY="64.0" text="démarrer le serveur">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_start" layoutX="133.0" layoutY="127.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="131.0" style="-fx-background-color: #0E8388;" text="démarrer" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font></Button>
+      <Label layoutX="155.0" layoutY="232.0" text="FSO M2I 2022-2023">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
